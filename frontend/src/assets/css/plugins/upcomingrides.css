@@ -1,0 +1,70 @@
+.booking-details{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	font-size: 13px;
+	font-weight: 600;
+	margin: 10px 0;
+	text-align: center;
+	list-style: none;
+}
+
+.booking-details li {
+	border: 1px solid #ccc;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	padding: 3px;
+	position: relative;
+
+}
+
+.booking-details li::before {
+	
+	font-family: FontAwesome;
+	margin-right: 5px;
+}
+
+.booking-details li + li {
+	border-left: 0;
+}
+
+.cancel-btn {
+	background-color: #222;
+	color: #ffd000;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 0px;
+	padding: 12px 25px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.hover-img img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	height:320px
+}
+
+
+.hover-img2 img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	height:340px
+}
+
+
+.hover-img3 img {
+	
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	height:340px
+}

@@ -1,0 +1,48 @@
+.outerdiv{
+    width:60%;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.button {
+    background-color:#008CBA;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width:150px;
+  }
+
+  .button:hover {
+    background-color: rgba(0, 139, 186, 0.712);
+    color: white;
+  }
+
+  .buttondiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttondiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardwidth{
+    width:100%
+  }
