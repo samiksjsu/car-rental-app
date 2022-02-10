@@ -28,7 +28,7 @@
     "jquery": "^3.4.1",
     "moment": "^2.25.3",
     "moment-range": "^4.0.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "npm": "^6.14.3",
     "react": "^16.13.0",
     "react-bootstrap": "^0.32.4",
